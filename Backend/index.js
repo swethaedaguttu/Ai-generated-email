@@ -19,6 +19,11 @@ app.post("/send", async (req, res) => {
     const result = await sendEmail(to, subject, text);
     res.json({ result });
 });
- 
+
+// ✅ Add this route to handle the root path
+app.get("/", (req, res) => {
+    res.send("✅ AI Email Generator Backend is running!");
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
