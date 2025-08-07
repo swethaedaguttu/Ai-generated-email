@@ -89,7 +89,7 @@ The frontend runs at http://localhost:3000 and connects to the backend on http:/
 This project is licensed under the MIT License.
 
 👤 Author
-Swetha E Daguttu
+Swetha Edagottu
 
 ---
 
